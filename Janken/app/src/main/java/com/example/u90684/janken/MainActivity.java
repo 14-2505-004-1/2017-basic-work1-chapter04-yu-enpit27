@@ -26,4 +26,5 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("MY_HAND", view.getId());
         startActivity(intent);
     }
+
 }
