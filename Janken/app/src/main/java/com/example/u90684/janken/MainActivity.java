@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = pref.edit();
         editor.clear();
+
         editor.commit();
     }
     public void onJankenButtonTapped(View view){
